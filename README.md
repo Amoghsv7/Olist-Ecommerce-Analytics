@@ -60,12 +60,12 @@ Category/product performance and seller/sales analysis.
 ![Product & Delivery Analysis](Screenshots/Page_3_Product_Delivery_Analysis.png)
 
 ### 4. Order Details
-Delivery performance, late vs on-time orders and review-score analysis.
+Detailed order-level information with order lookup and drill-through analysis.
 ![Order Details](Screenshots/Page_4_Order_Details.png)
 
 The report uses a dedicated Date table, relationships, DAX measures, synchronized Year filtering and drill-through.
 
-> **Power BI file:** The completed `.pbix` file is maintained separately because it exceeds GitHub's standard web upload limit. Dashboard screenshots are included above.
+> **Power BI file:** The completed `.pbix` file is maintained separately because it exceeds GitHub's standard browser upload limit. Dashboard screenshots are included above.
 
 ## Key Insights
 
