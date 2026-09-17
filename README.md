@@ -103,8 +103,6 @@ Olist-Ecommerce-Customer-Sales-Analytics/
 │   ├── 03_Data_Quality_Checks.sql
 │   ├── 04_Referential_Integrity.sql
 │   └── 05_Business_Analysis.sql
-├── PowerBI/
-│   └── Olist_Ecommerce_Analytics.pbix
 └── Screenshots/
     ├── Page_1_Executive_Overview.png
     ├── Page_2_Customer_Analysis.png
@@ -120,7 +118,7 @@ Olist-Ecommerce-Customer-Sales-Analytics/
 4. Load the CSV files using MySQL `LOAD DATA LOCAL INFILE`.
 5. Run the data-quality and referential-integrity scripts.
 6. Run `05_Business_Analysis.sql`.
-7. Open the Power BI `.pbix` file and configure the MySQL connection before refreshing.
+7. Open the Power BI dashboard separately and configure the MySQL connection before refreshing.
 
 ## Portfolio Value
 
