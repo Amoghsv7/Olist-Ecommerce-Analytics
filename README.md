@@ -1,4 +1,4 @@
-# Olist E-commerce Customer & Sales Analytics
+# Olist-Ecommerce-Analytics
 
 End-to-end data analytics project using **MySQL, SQL, Power BI and DAX** to analyze customer behavior, sales, payments, delivery performance and customer satisfaction.
 
@@ -49,17 +49,23 @@ The Power BI report contains four analytical pages covering executive performanc
 
 ### 1. Executive Overview
 KPI cards, revenue trend, payment performance and order-status overview.
+![Executive Overview](Screenshots/Page_1_Executive_Overview.png)
 
 ### 2. Customer Analysis
 One-time vs repeat customers, customer geography and order lookup with drill-through.
+![Customer Analysis](Screenshots/Page_2_Customer_Analysis.png)
 
 ### 3. Product & Sales Analysis
 Category/product performance and seller/sales analysis.
+![Product & Sales Analysis](Screenshots/Page_3_Product_Sales_Analysis.png)
 
 ### 4. Delivery & Customer Satisfaction
 Delivery performance, late vs on-time orders and review-score analysis.
+![Delivery & Customer Satisfaction](Screenshots/Page_4_Delivery_Customer_Satisfaction.png)
 
 The report uses a dedicated Date table, relationships, DAX measures, synchronized Year filtering and drill-through.
+
+> **Power BI file:** The completed `.pbix` file is maintained separately because it exceeds GitHub's standard web upload limit. Dashboard screenshots are included above.
 
 ## Key Insights
 
@@ -67,7 +73,7 @@ The report uses a dedicated Date table, relationships, DAX measures, synchronize
 The dataset is dominated by one-time customers, with a much smaller repeat-customer segment, highlighting customer retention as an important opportunity.
 
 ### Delivery affects satisfaction
-Average review score was **2.57 for late deliveries** versus **4.21 for on-time deliveries**, showing a strong business case for improving delivery reliability.
+Average review score was **2.57 for late deliveries** versus **4.21 for on-time deliveries**, indicating a strong association between delivery delays and lower customer review scores.
 
 ### Order-status concentration
 Delivered orders represent the overwhelming majority of the order base, while other statuses form much smaller segments.
