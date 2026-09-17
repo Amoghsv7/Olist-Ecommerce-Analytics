@@ -45,21 +45,21 @@ Final working row counts:
 | Category Translation | 71 |
 
 ## Power BI Dashboard
-The Power BI report contains four analytical pages covering executive performance, customer geography, product and sales analysis, and delivery/customer satisfaction.
+The Power BI report contains four analytical pages covering executive performance, customer geography, product and delivery analysis, and detailed order-level analysis.
 
 ### 1. Executive Overview
 KPI cards, revenue trend, payment performance and order-status overview.
 ![Executive Overview](Screenshots/Page_1_Executive_Overview.png)
 
-### 2. Customer Analysis
+### 2. Customer & Geo Analysis
 One-time vs repeat customers, customer geography and order lookup with drill-through.
 ![Customer & Geo Analysis](Screenshots/Page_2_Customer_Geo_Analysis.png)
 
-### 3. Product & Sales Analysis
+### 3. Product & Delivery Analysis
 Category/product performance and seller/sales analysis.
 ![Product & Delivery Analysis](Screenshots/Page_3_Product_Delivery_Analysis.png)
 
-### 4. Delivery & Customer Satisfaction
+### 4. Order Details
 Delivery performance, late vs on-time orders and review-score analysis.
 ![Order Details](Screenshots/Page_4_Order_Details.png)
 
@@ -102,7 +102,7 @@ All SQL scripts are available in the [`SQL`](SQL/) folder.
 ## Repository Structure
 
 ```text
-Olist-Ecommerce-Customer-Sales-Analytics/
+Olist-Ecommerce-Analytics/
 ├── README.md
 ├── SQL/
 │   ├── 01_Create_Tables.sql
@@ -112,9 +112,9 @@ Olist-Ecommerce-Customer-Sales-Analytics/
 │   └── 05_Business_Analysis.sql
 └── Screenshots/
     ├── Page_1_Executive_Overview.png
-    ├── Page_2_Customer_Analysis.png
-    ├── Page_3_Product_Sales_Analysis.png
-    └── Page_4_Delivery_Customer_Satisfaction.png
+    ├── Page_2_Customer_Geo_Analysis.png
+    ├── Page_3_Product_Delivery_Analysis.png
+    └── Page_4_Order_Details.png
 ```
 
 ## How to Reproduce
