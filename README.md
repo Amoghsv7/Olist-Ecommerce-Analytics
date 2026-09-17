@@ -77,14 +77,15 @@ The analysis identified **610 products with missing/blank categories** and **1 d
 
 ## SQL Scripts
 
-```text
-SQL/
-├── 01_Create_Tables.sql
-├── 02_Data_Import.sql
-├── 03_Data_Quality_Checks.sql
-├── 04_Referential_Integrity.sql
-└── 05_Business_Analysis.sql
-```
+The SQL analysis is organized into separate scripts covering database setup, data loading, validation, referential integrity and business analysis.
+
+- **01 — Create Tables** — Database and table creation
+- **02 — Data Import** — Loading the Olist CSV datasets
+- **03 — Data Quality Checks** — Missing values, duplicates and validation checks
+- **04 — Referential Integrity** — Relationship and key validation
+- **05 — Business Analysis** — Customer, sales, product, payment, delivery and review analysis
+
+All SQL scripts are available in the [`SQL`](SQL/) folder.
 
 ## Skills Demonstrated
 
