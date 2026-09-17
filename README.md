@@ -53,15 +53,15 @@ KPI cards, revenue trend, payment performance and order-status overview.
 
 ### 2. Customer Analysis
 One-time vs repeat customers, customer geography and order lookup with drill-through.
-![Customer Analysis](Screenshots/Page_2_Customer_Analysis.png)
+![Customer & Geo Analysis](Screenshots/Page_2_Customer_Geo_Analysis.png)
 
 ### 3. Product & Sales Analysis
 Category/product performance and seller/sales analysis.
-![Product & Sales Analysis](Screenshots/Page_3_Product_Sales_Analysis.png)
+![Product & Delivery Analysis](Screenshots/Page_3_Product_Delivery_Analysis.png)
 
 ### 4. Delivery & Customer Satisfaction
 Delivery performance, late vs on-time orders and review-score analysis.
-![Delivery & Customer Satisfaction](Screenshots/Page_4_Delivery_Customer_Satisfaction.png)
+![Order Details](Screenshots/Page_4_Order_Details.png)
 
 The report uses a dedicated Date table, relationships, DAX measures, synchronized Year filtering and drill-through.
 
