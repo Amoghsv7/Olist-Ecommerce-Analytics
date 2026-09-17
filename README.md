@@ -45,6 +45,7 @@ Final working row counts:
 | Category Translation | 71 |
 
 ## Power BI Dashboard
+The Power BI report contains four analytical pages covering executive performance, customer geography, product and sales analysis, and delivery/customer satisfaction.
 
 ### 1. Executive Overview
 KPI cards, revenue trend, payment performance and order-status overview.
